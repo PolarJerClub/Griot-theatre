@@ -1,0 +1,156 @@
+nav ul {
+    background-color: black;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    list-style-type: none;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 200px;
+    color: rgba(245, 245, 245, 0.926);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.hero-image{
+    display: flex;
+    background-image: url(images/theater-image-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 750px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    font-size: 500px;
+}
+
+.main{
+    display: flex;
+    margin: 100px;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show{
+    display: flex;
+    margin-left: 17%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 140px;
+}
+
+h2{
+    display: flex;
+    border: solid 1px;
+    width: 75%;
+    background-color: rgba(245, 245, 245, 0.926);
+    margin-bottom: 30px;
+    padding-left: 50px;
+
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    border-bottom: solid black 1px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#raisin{
+    display: flex;
+    height: 150px;
+    width: 200px;
+    justify-content: left;
+}
+
+.button {
+    background-color: #EBB625;
+    color: white;
+    height: 50%;
+    padding: 10px;
+
+
+}
+
+.footer{
+    display:flex;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding: 50px;
+    height: 500px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 150px;
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: flex-start;
+    margin-right: 150px;
+}
+
+.foot h1{
+    margin-top: 30px;
+}
+
+#map {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 50px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6.5%;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+p {
+    font-size: small;
+}
